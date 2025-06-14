@@ -1,4 +1,4 @@
-import '@/global.scss'
+import '@/global.sass'
 
 const RootLayout: LC = ({ children }) => (
   <html lang="en">
