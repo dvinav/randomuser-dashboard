@@ -1,3 +1,7 @@
 export { default as Button } from './button'
 export { default as Input } from './input'
 export { default as Typography } from './typography'
+export { default as Stack } from './stack'
+export { default as PhoneInput } from './phoneInput'
+export { default as LabelInput } from './labelInput'
+export { default as ErrorText } from './errorText'

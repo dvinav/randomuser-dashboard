@@ -2,5 +2,6 @@
   "login": "Login",
   "welcome": "Welcome!",
   "phoneNumber": "Phone Number:",
-  "loginDesc": "Please log in with your credentials to continue."
+  "loginDesc": "Please log in with your credentials to continue.",
+  "errorOccured": "An unexpected error occured!"
 }

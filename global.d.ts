@@ -4,6 +4,7 @@ declare global {
   type LC<T = {}> = React.FC<{ children?: React.ReactNode } & T>
   type CE<T = {}> = React.ChangeEvent<T>
   type IE = HTMLInputElement
+  type SE<T = {}> = React.SubmitEvent<T>
 }
 
 export {}

@@ -21,7 +21,8 @@
     "paths": {
       "@/*": ["./src/*"],
       "@c/*": ["./src/components/*"],
-      "@u/*": ["./src/util/*"]
+      "@u/*": ["./src/util/*"],
+      "@h/*": ["./src/hooks/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "global.d.ts"],
