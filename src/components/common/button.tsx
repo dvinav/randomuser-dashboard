@@ -3,9 +3,9 @@ import classes from './styles.module.sass'
 import clsx from 'clsx'
 
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
-  fullWidth?: true
+  fullwidth?: true
 }
 
-const Button: LC<Props> = props => <button {...props} className={clsx(classes.button, props.fullWidth && classes.button__fullWidth)} />
+const Button: LC<Props> = props => <button {...props} className={clsx(classes.button, props.fullwidth && classes.button__fullwidth)} />
 
 export default Button

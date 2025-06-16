@@ -1,4 +1,6 @@
 {
   "login": "Login",
-  "welcome": "Welcome!"
+  "welcome": "Welcome!",
+  "phoneNumber": "Phone Number:",
+  "loginDesc": "Please log in with your credentials to continue."
 }
