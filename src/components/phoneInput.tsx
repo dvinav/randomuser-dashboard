@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import LabelInput from './labelInput'
 import getString from '@/util/getString'
 
@@ -8,19 +7,12 @@ const formatPhone = (value: string) => {
   return digits.replace(/^(\d{4})(\d{0,3})(\d{0,4})$/, (_, p1, p2, p3) => [p1, p2, p3].filter(Boolean).join(' '))
 }
 
-const PhoneInput: FC<{ setDisabled: React.Dispatch<React.SetStateAction<boolean>> }> = ({ setDisabled }) => {
-  const [value, setValue] = useState('')
-
+const PhoneInput: FC<{ value: string; setValue: React.Dispatch<React.SetStateAction<string>> }> = ({ value, setValue }) => {
   const handleChange = (e: CE<IE>) => {
     const raw = e.target.value
     const formatted = formatPhone(raw)
     setValue(formatted)
   }
-
-  useEffect(() => {
-    if (value.length >= 13) setDisabled(false)
-    else setDisabled(true)
-  }, [value])
 
   return (
     <LabelInput

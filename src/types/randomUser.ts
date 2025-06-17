@@ -1,9 +1,9 @@
 export interface Root {
-  results: Result[]
+  results: User[]
   info: Info
 }
 
-export interface Result {
+export interface User {
   gender: string
   name: Name
   location: Location
