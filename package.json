@@ -1,12 +1,11 @@
 {
-  "name": "simple-randomuser-app",
-  "version": "0.1.0",
+  "name": "randomuser-dashboard",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "test": "jest --watch"
+    "lint": "next lint"
   },
   "dependencies": {
     "clsx": "^2.1.1",
